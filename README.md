@@ -1,2 +1,0 @@
-# backpackChat
-chatroom with inventory
