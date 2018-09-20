@@ -16,3 +16,8 @@ https://docs.google.com/spreadsheets/u/0/preview?id=15PKPltMTwfRjDUmTilWEHNa3yEg
 
 Proposal doc
 https://drive.google.com/file/d/1rnbvIFaTPsk5_Gnsn_OdKVOhtHTlgDmn/view
+
+
+Misc.
+---
+ASMOSNOS BY MASON LINDROTH IS COOL
