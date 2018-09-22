@@ -18,11 +18,16 @@ Proposal doc
 https://drive.google.com/file/d/1rnbvIFaTPsk5_Gnsn_OdKVOhtHTlgDmn/view
 
 
-package.json
----
-useful properties | https://docs.npmjs.com/files/package.json
-- bin
-- man
-- directories | http://wiki.commonjs.org/wiki/Packages/1.0
-- config
-- 
+* node.js
+	= useful package.json properties
+	https://docs.npmjs.com/files/package.json
+		- bin
+		- man
+		- directories
+		http://wiki.commonjs.org/wiki/Packages/1.0
+		- config
+		- devDependencies
+		- bundledDependencies
+		- 
+	= useful packages
+		- semver (semantic versioning)

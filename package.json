@@ -4,7 +4,8 @@
   "description": "project_distant_friends",
   "main": "index.js",
   "dependencies": {
-    "ige": "^1.6.0"
+    "ige": "^1.6.0",
+    "semver": "^5.5.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -19,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/kaeshay/backpackChat/issues"
   },
-  "homepage": "https://github.com/kaeshay/backpackChat#readme"
+  "homepage": "https://github.com/kaeshay/backpackChat#readme",
+  "private": true
 }

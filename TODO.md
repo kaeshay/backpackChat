@@ -23,6 +23,8 @@ Microservices architeture for Google (app/compute) Engines
 Decide standard or flexible env
 - looking like flexible
 
+semantic versioning
+
 Graphics
 - isogenic
 	http://www.isogenicengine.com/docs-tutorials.html
