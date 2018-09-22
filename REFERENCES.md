@@ -16,13 +16,16 @@ https://en.wikipedia.org/wiki/The_Beast_(game)
 a messaging app that asks strangers to deliver messages between friends 
 -
 http://somebodyapp.com/
+
 https://www.youtube.com/watch?v=iz13HMsvb6o
 - how to force people to interact with each other
 - mediating communication through strangers amongst a distant friend group
 - e.g. Alex could find someone at RISD to deliver message to me
 
 # Lauren McCarthy
+an artist who examines how issues of surveillance, automation, and network culture affect our social relationships
 -
 http://lauren-mccarthy.com/
+
 http://www.crowdpilot.me/
 - in similar fashion to somebodyapp, what does it mean to bring your distant friend with you on social situations
