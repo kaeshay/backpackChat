@@ -25,6 +25,7 @@ semantic versioning
 # Graphics
 - isogenic
 	http://www.isogenicengine.com/docs-tutorials.html
+	pricing?? fair use?
 - wade
 	http://clockworkchilli.com/tutorials
 - rpgmaker??
