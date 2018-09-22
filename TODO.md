@@ -25,6 +25,8 @@ Decide standard or flexible env
 
 Graphics
 - isogenic
+	http://www.isogenicengine.com/docs-tutorials.html
 - wade
+	http://clockworkchilli.com/tutorials
 - rpgmaker??
 - tiled if needed
