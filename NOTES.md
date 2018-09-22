@@ -18,6 +18,11 @@ Proposal doc
 https://drive.google.com/file/d/1rnbvIFaTPsk5_Gnsn_OdKVOhtHTlgDmn/view
 
 
-Misc.
+package.json
 ---
-ASMOSNOS BY MASON LINDROTH IS COOL
+useful properties | https://docs.npmjs.com/files/package.json
+- bin
+- man
+- directories | http://wiki.commonjs.org/wiki/Packages/1.0
+- config
+- 
