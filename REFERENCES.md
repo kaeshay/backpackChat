@@ -6,7 +6,7 @@ https://en.wikipedia.org/wiki/Telegarden
 - created a very civilized, collaborative community
 
 # Beast
-an alternate reality game using massively distributed set of websites
+an alternate reality game that uses massively distributed set of websites
 -
 https://en.wikipedia.org/wiki/The_Beast_(game)
 - embed things in game that require you to take offline actions like making a phone call
