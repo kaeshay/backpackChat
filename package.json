@@ -1,0 +1,23 @@
+{
+  "name": "backpackchat",
+  "version": "0.0.1",
+  "description": "project_distant_friends",
+  "main": "index.js",
+  "dependencies": {
+    "ige": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo TESTCOMMANDTODO"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaeshay/backpackChat.git"
+  },
+  "author": "kay, josh, taylor, alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaeshay/backpackChat/issues"
+  },
+  "homepage": "https://github.com/kaeshay/backpackChat#readme"
+}
