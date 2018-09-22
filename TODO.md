@@ -1,5 +1,4 @@
-Chat backend
----
+# Chat backend
 API
 
 Independent demo interface (real game uses the API)
@@ -9,15 +8,13 @@ questions
 - Other devs? language? python?
 
 
-Google-related
----
+# Google-related
 How to know when flexible env is doing weekly restart?
 
 which geographic region?
 
 
-Big picture
----
+# Big picture
 Microservices architeture for Google (app/compute) Engines
 
 Decide standard or flexible env
@@ -25,7 +22,7 @@ Decide standard or flexible env
 
 semantic versioning
 
-Graphics
+# Graphics
 - isogenic
 	http://www.isogenicengine.com/docs-tutorials.html
 - wade
