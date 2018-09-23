@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+open ./examples/24.1-network-stream/index.html
+node ./server/ige -g ./examples/24.1-network-stream
