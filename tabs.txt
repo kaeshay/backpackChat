@@ -1,0 +1,17 @@
+https://duckduckgo.com/?q=chatroom+for+google+app+engine&t=ffsb&ia=qa
+https://stackoverflow.com/questions/4769020/android-and-xmpp-currently-available-solutions
+https://quickblox.com/developers/Javascript
+https://quickblox.com/developers/Android_XMPP_Chat_Sample
+https://github.com/QuickBlox/quickblox-android-sdk/tree/master/sample-chat
+https://tigase.tech/projects/jaxmpp2
+https://developer.mozilla.org/en-US/docs/Web/API/Channel_Messaging_API
+https://duckduckgo.com/?q=gwt+java+to+javascript&t=ffsb
+http://www.gwtproject.org/overview.html
+
+https://www.hostingadvice.com/blog/where-to-find-free-node-js-hosting/
+https://github.com/sclorg/nodejs-ex
+https://www.vagrantup.com/downloads.html
+https://www.vagrantup.com/intro/index.html
+https://en.wikipedia.org/wiki/COPR
+
+check chat/active

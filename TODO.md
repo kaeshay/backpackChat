@@ -1,3 +1,5 @@
+( SERVERLESS )
+
 # Chat backend
 API
 
@@ -10,7 +12,7 @@ questions
 
 # Google-related
 How to know when flexible env is doing weekly restart?
-
+SER
 which geographic region?
 
 
