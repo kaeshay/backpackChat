@@ -1,5 +1,5 @@
 var sakiko, ejler, gehrig, oriah;
-var mallSound;
+var mallSound, trainStationMP3;
 var avatarIsChosen = false;
 var selectedAvatar = "sakiko";
 
@@ -9,6 +9,7 @@ function preload(){
   gehrig = new Avatar("gehrig", 5);
   oriah = new Avatar("oriah", 3);
   mallSound = loadSound("assets/mall.mp3");
+  trainStationMP3 = loadSound("assets/trainStation/trainstation.mp3");
 }
 
 function setup() {

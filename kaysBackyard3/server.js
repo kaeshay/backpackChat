@@ -15,6 +15,16 @@ function Player(avatar, id, x, y){
   this.id = id;
   this.x = x;
   this.y = y;
+  this.key = 0;
+}
+
+var puddle = new Puddle(1000, 1000);
+
+function Puddle(canvasW, canvasH){
+  this.x = Math.random(-canvasW, canvasW);
+  this.y = Math.random(-canvasH, canvasH);
+  this.rotation = Math.random(-10, 10);
+  this.scale = Math.random(.1,.3);
 }
 
 // broadcast
@@ -25,18 +35,17 @@ function heartbeat(){
 }
 
 // receive
-io.sockets.on('connection',
-  function(socket) {
+io.on('connection', function(socket) {
     console.log("user:" + socket.id + " is connected");
 
-    socket.on('start', function(data) {
-      console.log(data.avatar + " " + socket.id + " " + data.x + " " + data.y);
-      var player = new Player(data.avatar, socket.id, data.x, data.y);
+    socket.emit('puddle', 2);
+
+    socket.on('load', function(data) {
+      var player = new Player(data.avatar, socket.id, data.x, data.y); // proxy player
       players.push(player);
     });
 
     socket.on('update', function(data){
-      console.log(socket.id + " " + data.x + " " + data.y);
       var player;
 
       for (var i = 0; i < players.length; i++){
@@ -46,9 +55,11 @@ io.sockets.on('connection',
       }
       player.x = data.x;
       player.y = data.y;
+      player.key = data.key;
+
     });
-    
+
     socket.on('disconnect', function() {
       console.log("user:" + socket.id + " disconnected");
     });
-  });
+});

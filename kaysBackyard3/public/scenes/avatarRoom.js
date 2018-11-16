@@ -11,7 +11,6 @@ function AvatarRoom(){
 		background(255);
 		avatarPanel();
 		if (avatarIsChosen){
-			console.log(selectedAvatar);
 			gameState.showScene(TrainStation, selectedAvatar);
 	    } 
 	}

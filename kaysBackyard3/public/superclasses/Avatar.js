@@ -1,11 +1,11 @@
 function Avatar(name) {	
-	var upImg = loadImage("assets/spritesheets/" + name + "-up.png");
-	var downImg = loadImage("assets/spritesheets/" + name + "-down.png");
+	var nImg = loadImage("assets/spritesheets/" + name + "-N.png");
+	var sImg = loadImage("assets/spritesheets/" + name + "-S.png");
 
 	this.load = function() {
 		this.sprite = createSprite(width / 2, height / 2);
-		this.sprite.addImage("still up", upImg);
-		this.sprite.addImage("still down", downImg);
+		this.sprite.addImage("N", nImg);
+		this.sprite.addImage("S", sImg);
 	}
 
 	this.avatar = function(x,y){
@@ -14,10 +14,10 @@ function Avatar(name) {
 			drawSprite(this.sprite);
 			this.sprite.setCollider("rectangle", 0, 0, this.sprite.width, this.sprite.height);
 			this.sprite.onMouseOver = function() {
-	      		this.changeImage("still down");
+	      		this.changeImage("S");
 	    	}
 	    	this.sprite.onMouseOut = function() {
-	      		this.changeImage("still up");
+	      		this.changeImage("N");
 	    	}
 	    	// this.sprite.onMousePressed = function(){
 	    		
